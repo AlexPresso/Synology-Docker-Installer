@@ -49,7 +49,7 @@ info "Mounting docker directory to /docker"
 mkdir /docker
 mount -o bind "/volume1/@Docker/lib" /docker
 
-info "Injecting /etc/docker/deamon.json configuration"
+info "Injecting /etc/docker/daemon.json configuration"
 echo '{
 	"storage-driver": "vfs",
 	"iptables": false,
